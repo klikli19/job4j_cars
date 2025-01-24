@@ -7,4 +7,5 @@
     http://www.liquibase.org/xml/ns/dbchangelog-ext http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-ext.xsd">
     <include file="db/scripts/202501221448_ddl_create_auto_user_table.sql" relativeToChangelogFile="true"/>
     <include file="db/scripts/202501221450_ddl_create_auto_post_table.sql" relativeToChangelogFile="true"/>
+    <include file="db/scripts/202501221117_ ddl_update_auto_user_table.sql" relativeToChangelogFile="true"/>
 </databaseChangeLog>
