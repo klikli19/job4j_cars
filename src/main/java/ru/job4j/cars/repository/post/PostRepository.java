@@ -48,8 +48,6 @@ public class PostRepository  {
         });
     }
 
-
-
     public boolean delete(Integer id) {
         return crudRepository.tx(session -> {
             int result = session.createQuery("DELETE FROM Post WHERE id = :id")
